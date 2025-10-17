@@ -1,0 +1,23 @@
+{
+  "name": "minutebots-extension-pack",
+  "publisher": "minutebots",
+  "displayName": "MinuteBots Extension Pack",
+  "description": "Installs all of the required extensions for MinuteBots programmers",
+  "repository": {
+    "type": "git",
+    "url": "https://tbd"
+  },
+  "version": "2025.10.17",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "ms-python.vscode-pylance",
+    "ms-python.python",
+    "usernamehw.errorlens",
+    "ms-python.black-formatter"
+  ]
+}
