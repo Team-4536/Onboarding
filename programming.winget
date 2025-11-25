@@ -1,0 +1,38 @@
+properties:
+  configurationVersion: 0.2.0
+  resources:
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      securityContext: elevated
+      scope: machine
+    settings:
+      id: Microsoft.VisualStudioCode
+      source: winget
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      securityContext: elevated
+      scope: machine
+    settings:
+      id: Git.Git
+      source: winget
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      securityContext: elevated
+      scope: machine
+    settings:
+      id: Microsoft.VCRedist.2015+.x64
+      source: winget
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      securityContext: elevated
+      scope: machine
+    settings:
+      id: astral-sh.uv
+      source: winget
+  - resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      securityContext: elevated
+      scope: machine
+    settings:
+      id: NI.ni-packagemanager
+      source: winget
