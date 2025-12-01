@@ -36,3 +36,11 @@ properties:
     settings:
       id: NI.ni-packagemanager
       source: winget
+  - resource: PSDscResources/Environment
+    directives:
+      scope: machine
+      allowPrerelease: true
+    settings:
+      Name: Path
+      Path: true
+      Value: "C:\\Program Files\\National Instruments\\NI Package Manager\\"
